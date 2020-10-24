@@ -1,0 +1,64 @@
+﻿26.oct.2019
+
+tags-paired and self closing tags
+<br>-breaks the current line and goes to the new one
+Heading tag! <h1></h1> <h2></h2> <h3></h3> ... <h6></h6> 
+                    helps to differentiate the headings by variation in size and emphization
+
+<hr size="#">-horizontal tag for drawing horizontal lines
+(HTML element, Attributes(specifies the modificatios)-size,color,align,width,noshade)
+
+index-usually name given to the homepage
+boilerplate-template of code written so that can be used whenever wanted
+
+meta element gives extra meta data to browser
+utf-8; an enconding method #standard method
+
+atributes of meta tag
+name="description/keyboard" content="" #gets displayed in the search index
+charset="utf-8"
+
+physical and logical tag
+<i> and <em> 
+<bold> and <strong>
+
+list-
+Available attributes
+type="i" #for roman numerals
+         circle/triangle/square
+start="7" #starts with a particular number
+
+a link will be in blue color if we have never clicked on it
+it will be in purple if we have already visited the link before
+target="_blank/_self"
+
+27.Oct.2019
+
+table attributes
+align:left/right/center
+bgcolor:
+border, border-
+cellspacing:
+cellpadding: space btwn content and block of table
+
+nested table
+<table>
+        	<tr>
+        	<td>
+        	<table>
+        	<tr>
+        	<td>Web Development</td>
+              <td>⭐⭐⭐⭐⭐</td>
+        	</tr>
+        	<tr>
+              <td>iOS Development</td>
+               <td>⭐⭐⭐⭐⭐</td>
+        	 </tr>
+        	            <tr>
+        	            	<td>Doodling</td>
+        	            	<td>⭐⭐ </td>
+        	            </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
