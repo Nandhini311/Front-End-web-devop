@@ -1,0 +1,108 @@
+body{
+	margin:0px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	background-color: #FFD369;
+}
+h1{
+	font-size: 4rem; /* dynamic 100%=1em=16px rem doesnt get affected by*/
+	margin-top: 50px;
+	font-family: 'Sacramento', cursive;
+	margin-bottom: 0px;
+	color: #FFD369;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #263F44;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #263F44;
+}
+.cloud-top{
+    position: absolute;
+    right: 370px;
+    top: 50px;
+}
+.cloud-bottom{
+	position: absolute;
+    left: 400px;
+    top: 200px;
+}
+
+.top-container{
+	background-color: #263F44;
+	position: relative;
+	padding: 36px;
+
+
+}
+.btn{
+	color: black;
+    font-weight: bold;
+}
+
+.bottom-container a{
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+
+
+}
+.nandhini{
+	height: 147px;
+    width: 183px;
+    border-radius: 411px;
+    margin: 15px 0 0 0;
+}
+
+
+hr{
+   		border-style: none;
+   		border-top-style: dotted;
+   		border-color: grey;
+   		border-width: 5px;
+   		width: 15%; #percentage so changes with the platform
+   	}
+.skills{
+	margin-top: 45px;
+}
+
+.skill-row{
+	width:50%;
+	margin:45px auto 45px auto;
+	text-align: left;
+	line-height: 2;
+}
+
+.contact-me{
+	margin: 50px;
+}
+
+.computer-image{
+    width: 25%;
+	height: 25%;
+	float: right;
+	border-radius: 229px;
+	margin: 0px 0px 0px 22px;
+}
+.bear-image{
+	width: 25%;
+	height: 25%;
+	float: left;
+	border-radius: 229px;
+	margin: 0px 22px 0px 0px;
+}
+.profile{
+	width: 50%;
+    margin: auto;
+    line-height: 1.5;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.bottom-container{
+	background-color: #263f44e3;
+    height: 63px;
+    padding: 22px 0px 0px 0px;
+}
